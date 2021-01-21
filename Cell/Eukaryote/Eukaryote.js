@@ -1,8 +1,10 @@
-const Cell = require('./Cell'
-)
+const Cell = require('../Cell')
+const Chromosone = require('../Eukaryote/Chromosone')
+
 class Eukaryote extends Cell {
-    constructor(args){
+    constructor(){
         super()
+        this.contains = [ Chromosone ]
     }
 }
 
